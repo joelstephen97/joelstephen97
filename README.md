@@ -1,8 +1,9 @@
 - 👋 Hi, I’m @joelstephen97
 - 👀 I’m interested in General Coding Projects(Financial Applications, APIs), Backend Engineering, Web-application development(Using Flask, Django, Wordpress)
+- 🎼 I love all kinds of 2000s music
 - 🌱 I’m currently learning reactjs and nodejs
-- My favorite IDE is Pycharm and Visual Studio Code
-- My favorite languages - Python then PHP
+- 💻 My favorite IDE is Pycharm and Visual Studio Code
+- 💽 My favorite languages - Python then PHP
 - 💞️ I’m looking to collaborate on Learning Projects
 - 📫 How to reach me jojostev@gmail.com
 
