@@ -1,5 +1,5 @@
 - 👋 Hi, I’m @joelstephen97
-- 👀 I’m interested in General Coding Projects(Financial Applications, APIs), Backend Engineering, Web-application development(Using Flask, Django, Wordpress)
+- 👀 I’m interested in General Coding Projects(Financial Applications, APIs), Backend Engineering, Web-application development(Using Flask, Django, Javascript, Wordpress)
 - 🎼 I love all kinds of 1990s and 2000s music
 - 🌱 I’m currently learning reactjs and nodejs
 - 💻 My favorite IDE is Visual Studio Code
