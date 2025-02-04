@@ -1,7 +1,8 @@
 - 👋 Hi, I’m @joelstephen97
-- 👀 I’m interested in General Coding Projects(Financial Applications, APIs), Backend Engineering, Web-application development(Using Flask, Django, Javascript, Wordpress)
+- 👀 I’m interested in Frontend Development and Machine Learning.
+- 👀 Obsessed with the Vue Ecosystem, I have used Vuex, Vueuse, Vue 2 and 3 , Pinia, NuxtJs, ShadCN components for Vue,Vuetify, Nuxt UI, Vitest and Cypress
 - 🎼 I love all kinds of 1990s and 2000s music
-- 🌱 I’m currently learning vuejs and nuxtjs
+- 🌱 I’m currently working vuejs and nuxtjs
 - 💻 My favorite IDE is Visual Studio Code
 - 💽 My favorite languages and frameworks - Vuejs, Nuxtjs, Python, Javascript, PHP in that order
 - 💞️ I’m looking to collaborate on Learning Projects or collaborating or commercial projects
