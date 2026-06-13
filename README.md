@@ -82,13 +82,16 @@ Full-Stack & AI Engineer based in Abu Dhabi, with 5+ years building web apps and
 
 ## Featured Projects
 
+### 🛡️ [ScamShield](https://github.com/joelstephen97/scamshield)
+
+On-device scam and phishing detection for Chromium and Firefox. The model runs inside the browser, so nothing a user reads gets sent off their machine. My take on "the model is the product."
+
+`MV3` · `JavaScript` · `on-device ML`
+
 | Project | What it does | Stack |
 |---|---|---|
-| [**ScamShield**](https://github.com/joelstephen97/scamshield) | On-device scam and phishing detection for Chromium and Firefox. Runs locally, no data leaves the browser. | MV3 · JavaScript |
-| [**doc_parser**](https://github.com/joelstephen97/doc_parser) | Document parser for resumes and general files, built to pull clean structured data out of messy docs. | Python |
-| [**tracr**](https://github.com/joelstephen97/tracr) | Image search tool that finds matches by recursively crawling sources. | Python |
-| [**ollama-chat**](https://github.com/joelstephen97/ollama-chat) | Streamlit front end for chatting with local models over Ollama, with token streaming. | Python · Streamlit |
-| [**sentiment-analysis**](https://github.com/joelstephen97/sentiment-analysis) | Sentiment analysis behind a small Flask API. | Python · Flask |
+| [**doc_parser**](https://github.com/joelstephen97/doc_parser) | Pulls clean structured data out of messy resumes and documents. | Python |
+| [**ollama-chat**](https://github.com/joelstephen97/ollama-chat) | Streamlit front end for local models over Ollama, with token streaming. | Python · Streamlit |
 | [**personal-website**](https://github.com/joelstephen97/personal-website) | My portfolio, live at [joelstephen.vercel.app](https://joelstephen.vercel.app/). | Vue · Nuxt |
 
 ---
