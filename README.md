@@ -84,15 +84,15 @@ Full-Stack & AI Engineer based in Abu Dhabi, with 5+ years building web apps and
 
 ### 🛡️ [ScamShield](https://github.com/joelstephen97/scamshield)
 
-On-device scam and phishing detection for Chromium and Firefox. The model runs inside the browser, so nothing a user reads gets sent off their machine. My take on "the model is the product."
+On-device scam and phishing detection for Chromium and Firefox. A small ONNX model (onnxruntime-web) and DOM feature extraction classify pages right in the browser, so nothing a user reads ever leaves their machine. It catches fake login forms, crypto wallet and seed-phrase attacks, clipboard hijacks, tech-support scam loops, and brand impersonation, and re-scans as single-page apps navigate. Builds for Chrome, Edge, Brave, and Firefox 128+, with E2E and unit tests and a Python retraining pipeline. My take on "the model is the product."
 
-`MV3` · `JavaScript` · `on-device ML`
+`MV3` · `JavaScript` · `ONNX` · `on-device ML`
 
 | Project | What it does | Stack |
 |---|---|---|
-| [**doc_parser**](https://github.com/joelstephen97/doc_parser) | Pulls clean structured data out of messy resumes and documents. | Python |
-| [**ollama-chat**](https://github.com/joelstephen97/ollama-chat) | Streamlit front end for local models over Ollama, with token streaming. | Python · Streamlit |
-| [**personal-website**](https://github.com/joelstephen97/personal-website) | My portfolio, live at [joelstephen.vercel.app](https://joelstephen.vercel.app/). | Vue · Nuxt |
+| [**doc_parser**](https://github.com/joelstephen97/doc_parser) | A pip-installable CV/document parser that cleans text, splits sections, and pulls out names, emails, phones, and skills. Built to fill a gap in open-source resume parsing. | Python |
+| [**ollama-chat**](https://github.com/joelstephen97/ollama-chat) | Streamlit web UI for chatting with local models over Ollama, with model pulling and management built in. | Python · Streamlit |
+| [**personal-website**](https://github.com/joelstephen97/personal-website) | My portfolio with an AI chat agent that answers questions about my experience and projects. Live at [joelstephen.vercel.app](https://joelstephen.vercel.app/). | Nuxt · Vue · Groq |
 
 ---
 
