@@ -1,4 +1,9 @@
-<a href="https://joelstephen.vercel.app/"><img src="assets/header.svg" alt="Joel Stephen — Full-Stack & AI Engineer, Abu Dhabi" width="100%"></a>
+<a href="https://joelstephen.vercel.app/">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg">
+    <img src="assets/header-light.svg" alt="Joel Stephen — Full-Stack & AI Engineer, Abu Dhabi. A request travels from a UI card through an API card to a model that streams tokens back." width="100%">
+  </picture>
+</a>
 
 <div align="center">
 
@@ -6,6 +11,8 @@
 [![ScamShield on the Chrome Web Store](https://img.shields.io/chrome-web-store/v/fojjjofjimbfoddafoampojopijnlihl?style=for-the-badge&logo=googlechrome&logoColor=white&label=ScamShield%20on%20Chrome&color=1a73e8)](https://chromewebstore.google.com/detail/fojjjofjimbfoddafoampojopijnlihl)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/joelthomasstephen)
 [![Email](https://img.shields.io/badge/joel.stephen.work%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:joel.stephen.work@gmail.com)
+
+<sub>[About](#about) · [ScamShield](#flagship-scamshield) · [Projects](#more-things-ive-built) · [Stack](#stack) · [Beyond](#beyond-the-keyboard) · [GitHub](#github)</sub>
 
 </div>
 
@@ -28,6 +35,11 @@ On my own time I like products where the model *is* the product and privacy is t
   </tr>
 </table>
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/timeline-dark.svg">
+  <img src="assets/timeline-light.svg" alt="Career timeline: BITS Pilani Dubai 2015 to 2019, Alucor intern 2019, RIOT 2019 to 2023, Otani Trading 2023 to 2025, AppliedAI 2025 to now" width="100%">
+</picture>
+
 <br>
 
 ## Flagship: ScamShield
@@ -48,7 +60,10 @@ On my own time I like products where the model *is* the product and privacy is t
       <p><code>MV3</code> <code>vanilla JS</code> <code>scikit-learn → JSON</code> <code>declarativeNetRequest</code> <code>Playwright</code> <code>Vercel + Neon (opt-in reporting relay)</code></p>
     </td>
     <td width="38%" valign="top" align="center">
-      <a href="https://chromewebstore.google.com/detail/fojjjofjimbfoddafoampojopijnlihl"><img src="https://developer.chrome.com/static/docs/webstore/branding/image/iNEddTyWiMfLSwFD6qGq.png" alt="Available in the Chrome Web Store" width="220"></a>
+      <a href="https://github.com/joelstephen97/scamshield"><img src="assets/scamshield-demo.svg" alt="Animated mock: a look-alike PayPal login on paypa1-secure-verify.com gets flagged by ScamShield as a dangerous page, with a one-click link to the real site" width="100%"></a>
+      <sub>What it looks like when a page is wearing a brand it doesn't own.</sub>
+      <br><br>
+      <a href="https://chromewebstore.google.com/detail/fojjjofjimbfoddafoampojopijnlihl"><img src="https://developer.chrome.com/static/docs/webstore/branding/image/iNEddTyWiMfLSwFD6qGq.png" alt="Available in the Chrome Web Store" width="200"></a>
       <br><br>
       <a href="https://chromewebstore.google.com/detail/fojjjofjimbfoddafoampojopijnlihl"><img src="https://img.shields.io/chrome-web-store/v/fojjjofjimbfoddafoampojopijnlihl?style=flat-square&logo=googlechrome&logoColor=white&label=store%20version&color=1a73e8" alt="Chrome Web Store version"></a>
       <a href="https://github.com/joelstephen97/scamshield/releases"><img src="https://img.shields.io/github/v/tag/joelstephen97/scamshield?style=flat-square&label=latest%20tag&color=7ee787&labelColor=0d1117" alt="Latest tag"></a>
@@ -63,6 +78,21 @@ On my own time I like products where the model *is* the product and privacy is t
     </td>
   </tr>
 </table>
+
+<details>
+  <summary><b>Real screenshots from the store listing</b> (popup, in-page banner, message checker, settings, wallet guard)</summary>
+  <br>
+  <table>
+    <tr>
+      <td><img src="https://raw.githubusercontent.com/joelstephen97/scamshield/main/store/screenshots/01-popup-dangerous.png" alt="ScamShield popup showing a dangerous verdict" width="100%"></td>
+      <td><img src="https://raw.githubusercontent.com/joelstephen97/scamshield/main/store/screenshots/02-banner-rescue.png" alt="In-page warning banner with the rescue link to the real site" width="100%"></td>
+    </tr>
+    <tr>
+      <td><img src="https://raw.githubusercontent.com/joelstephen97/scamshield/main/store/screenshots/03-message-checker.png" alt="Scam message checker in the popup" width="100%"></td>
+      <td><img src="https://raw.githubusercontent.com/joelstephen97/scamshield/main/store/screenshots/05-wallet-guard.png" alt="Crypto wallet guard intercepting a risky request" width="100%"></td>
+    </tr>
+  </table>
+</details>
 
 <br>
 
@@ -113,6 +143,18 @@ On my own time I like products where the model *is* the product and privacy is t
   </tr>
 </table>
 
+<details>
+  <summary><b>Older experiments</b> (kept public because they were useful once)</summary>
+  <br>
+  <ul>
+    <li><a href="https://github.com/joelstephen97/tracr">tracr</a>: recursive image finder that crawls out from a starting URL. Python.</li>
+    <li><a href="https://github.com/joelstephen97/cv_analysis">cv_analysis</a>: Dockerised CV analysis server with OCR, a parser and a test suite, on port 8501. Python.</li>
+    <li><a href="https://github.com/joelstephen97/sessions-node-api">sessions-node-api</a>: tiny session API that fed a randomizer on an early version of my site. Node.js.</li>
+    <li><a href="https://github.com/joelstephen97/huffman-test-python">huffman-test-python</a>: Huffman encoding from scratch, because reading about it wasn't enough. Python.</li>
+    <li><a href="https://github.com/joelstephen97/sentiment-analysis">sentiment-analysis</a>: Flask API wrapping a sentiment model. Python.</li>
+  </ul>
+</details>
+
 <br>
 
 ## Stack
@@ -146,9 +188,16 @@ On my own time I like products where the model *is* the product and privacy is t
 [![Public repos](https://img.shields.io/badge/dynamic/json?style=flat-square&logo=github&label=public%20repos&color=7ee787&labelColor=0d1117&query=%24.public_repos&url=https%3A%2F%2Fapi.github.com%2Fusers%2Fjoelstephen97)](https://github.com/joelstephen97?tab=repositories)
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=joelstephen97&theme=tokyo-night&hide_border=true&bg_color=00000000&area=true&custom_title=Contributions%2C%20last%2031%20days">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=joelstephen97&theme=github-compact&hide_border=true&bg_color=00000000&area=true&custom_title=Contributions%2C%20last%2031%20days" alt="Contribution activity" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/joelstephen97/joelstephen97/output/profile-night-rainbow.svg">
+  <img src="https://raw.githubusercontent.com/joelstephen97/joelstephen97/output/profile-season-animate.svg" alt="3D contribution calendar for the last year" width="100%">
 </picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/joelstephen97/joelstephen97/output/github-snake-dark.svg">
+  <img src="https://raw.githubusercontent.com/joelstephen97/joelstephen97/output/github-snake.svg" alt="Contribution snake" width="100%">
+</picture>
+
+<sub>Both images are generated daily by a GitHub Action in this repo (<a href="https://github.com/joelstephen97/joelstephen97/blob/main/.github/workflows/visuals.yml">visuals.yml</a>); no third-party stats service involved. The banner and cards above are hand-written SVG, built by <a href="https://github.com/joelstephen97/joelstephen97/blob/main/tools/build-assets.py">tools/build-assets.py</a>.</sub>
 
 </div>
 

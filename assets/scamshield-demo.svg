@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="400" viewBox="0 0 640 400" role="img" aria-labelledby="t d">
+<title id="t">ScamShield catching a phishing page</title>
+<desc id="d">A browser window loads a fake PayPal login on a look-alike domain; ScamShield flags it as a dangerous page and offers a one-click link to the real site.</desc>
+<defs>
+<clipPath id="win"><rect width="640" height="400" rx="14"/></clipPath>
+<clipPath id="page"><rect x="0" y="76" width="640" height="324"/></clipPath>
+<clipPath id="urlclip"><rect x="0" y="0" width="0" height="20"><animate attributeName="width" values="0;7.2;14.4;21.6;28.8;36.0;43.2;50.4;57.6;64.8;72.0;79.2;86.4;93.6;100.8;108.0;115.2;122.4;129.6;136.8;144.0;151.2;158.4;165.6;172.8;180.0;187.2;194.4;201.6;208.8;216.0;223.2;230.4;237.6;244.8;252.0;259.2;266.4;273.6;0;0" keyTimes="0.0000;0.0416;0.0469;0.0522;0.0574;0.0627;0.0679;0.0732;0.0785;0.0837;0.0890;0.0943;0.0995;0.1048;0.1100;0.1153;0.1206;0.1258;0.1311;0.1364;0.1416;0.1469;0.1522;0.1574;0.1627;0.1679;0.1732;0.1785;0.1837;0.1890;0.1943;0.1995;0.2048;0.2100;0.2153;0.2206;0.2258;0.2311;0.2364;0.9636;1" calcMode="discrete" dur="11.0s" repeatCount="indefinite" /></rect></clipPath>
+<linearGradient id="red" x1="0" x2="1"><stop offset="0" stop-color="#cf222e"/><stop offset="1" stop-color="#a40e26"/></linearGradient>
+</defs>
+<style>.t{font:500 12px 'Cascadia Code', 'Fira Code', Consolas, 'SF Mono', Menlo, monospace;fill:#24292f}.h{font:700 15px 'Segoe UI', Inter, -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif;fill:#ffffff}.b{font:500 12px 'Segoe UI', Inter, -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif;fill:#ffffff}.lbl{font:500 11px 'Segoe UI', Inter, -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif;fill:#57606a}.btn{font:600 12px 'Segoe UI', Inter, -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif;fill:#ffffff}.logo{font:800 18px 'Segoe UI', Inter, -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif;fill:#ffffff;letter-spacing:-.3px}.small{font:500 10px 'Segoe UI', Inter, -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif;fill:#57606a}.cur{animation:blink 1s steps(1) infinite}@keyframes blink{50%{opacity:0}}.pulse{animation:pp 1.6s ease-in-out infinite}@keyframes pp{0%,100%{transform:scale(1)}50%{transform:scale(1.06)}}@media (prefers-reduced-motion:reduce){.cur,.pulse{animation:none}}</style>
+<g clip-path="url(#win)">
+<rect width="640" height="400" fill="#ffffff"/>
+<rect width="640" height="76" fill="#eef1f4"/>
+<circle cx="18" cy="18" r="5" fill="#ff5f57"/><circle cx="36" cy="18" r="5" fill="#febc2e"/><circle cx="54" cy="18" r="5" fill="#28c840"/>
+<rect x="78" y="6" width="190" height="28" rx="8" fill="#ffffff"/>
+<text class="small" x="92" y="24">Log in to your account</text>
+<rect x="16" y="42" width="550" height="26" rx="13" fill="#ffffff" stroke="#d0d7de"/>
+<g transform="translate(30,45)"><g clip-path="url(#urlclip)"><text class="t" x="0" y="15">https://paypa1-secure-verify.com/login</text></g>
+<rect class="cur" y="3" width="7" height="15" fill="#24292f"><animate attributeName="x" values="0;7.2;14.4;21.6;28.8;36.0;43.2;50.4;57.6;64.8;72.0;79.2;86.4;93.6;100.8;108.0;115.2;122.4;129.6;136.8;144.0;151.2;158.4;165.6;172.8;180.0;187.2;194.4;201.6;208.8;216.0;223.2;230.4;237.6;244.8;252.0;259.2;266.4;273.6;0;0" keyTimes="0.0000;0.0416;0.0469;0.0522;0.0574;0.0627;0.0679;0.0732;0.0785;0.0837;0.0890;0.0943;0.0995;0.1048;0.1100;0.1153;0.1206;0.1258;0.1311;0.1364;0.1416;0.1469;0.1522;0.1574;0.1627;0.1679;0.1732;0.1785;0.1837;0.1890;0.1943;0.1995;0.2048;0.2100;0.2153;0.2206;0.2258;0.2311;0.2364;0.9636;1" calcMode="discrete" dur="11.0s" repeatCount="indefinite" /></rect></g>
+<g transform="translate(580,43)">
+<path d="M12 2 21 5.5v6c0 5.4-3.8 9.7-9 11.5-5.2-1.8-9-6.1-9-11.5v-6L12 2z" fill="#1a7f37"><animate attributeName="fill" values="#1a7f37;#d1242f;#1a7f37;#1a7f37" keyTimes="0.0000;0.4182;0.9636;1" calcMode="discrete" dur="11.0s" repeatCount="indefinite" /></path>
+<circle cx="21" cy="5" r="6" fill="#d1242f" opacity="0"><animate attributeName="opacity" values="0;1;0;0" keyTimes="0.0000;0.4182;0.9636;1" calcMode="discrete" dur="11.0s" repeatCount="indefinite" /></circle>
+<text x="21" y="8.5" text-anchor="middle" font-family="Arial" font-weight="700" font-size="9" fill="#fff" opacity="0">!<animate attributeName="opacity" values="0;1;0;0" keyTimes="0.0000;0.4182;0.9636;1" calcMode="discrete" dur="11.0s" repeatCount="indefinite" /></text>
+</g>
+<g opacity="0"><animate attributeName="opacity" values="0;1;0;0" keyTimes="0.0000;0.2727;0.9273;1" calcMode="discrete" dur="11.0s" repeatCount="indefinite" />
+<rect x="0" y="76" width="640" height="56" fill="#003087"/>
+<text class="logo" x="24" y="112">PayPaI</text>
+<rect x="170.0" y="160" width="300" height="200" rx="10" fill="#ffffff" stroke="#d0d7de"/>
+<text class="lbl" x="190.0" y="192">Email or mobile number</text>
+<rect x="190.0" y="200" width="260" height="30" rx="6" fill="#f6f8fa" stroke="#d0d7de"/>
+<text class="lbl" x="190.0" y="254">Password</text>
+<rect x="190.0" y="262" width="260" height="30" rx="6" fill="#f6f8fa" stroke="#d0d7de"/>
+<rect x="190.0" y="308" width="260" height="32" rx="16" fill="#0070ba"/>
+<text class="btn" x="320.0" y="329" text-anchor="middle">Log In</text>
+</g>
+<rect x="0" y="76" width="640" height="324" fill="#0b1220" opacity="0"><animate attributeName="opacity" values="0;.45;0;0" keyTimes="0.0000;0.4182;0.9273;1" calcMode="discrete" dur="11.0s" repeatCount="indefinite" /></rect>
+<g clip-path="url(#page)">
+<g transform="translate(0,-90)"><animateTransform attributeName="transform" type="translate" values="0 -90;0 -90;0 76;0 76;0 -90;0 -90" keyTimes="0;0.4182;0.4591;0.9273;0.9545;1" calcMode="spline" keySplines="0 0 1 1;.2 .8 .2 1;0 0 1 1;.4 0 1 1;0 0 1 1" dur="11.0s" repeatCount="indefinite"/>
+<rect x="0" y="0" width="640" height="84" fill="url(#red)"/>
+<g transform="translate(20,22)"><path d="M20 2 36 8v10c0 9-6.4 16.3-16 19.6C10.4 34.3 4 27 4 18V8l16-6z" fill="#fff" opacity=".95"/><path d="M20 12v9M20 26.5v1" stroke="#cf222e" stroke-width="3.2" stroke-linecap="round"/></g>
+<text class="h" x="70" y="32">Dangerous page</text>
+<text class="b" x="70" y="52">Looks like PayPal, but this is not paypal.com.</text>
+<g transform="translate(444,22)"><g class="pulse" style="transform-box:fill-box;transform-origin:center"><rect width="176" height="34" rx="17" fill="#ffffff"/><text class="btn" x="88" y="22" text-anchor="middle" style="fill:#cf222e">Take me to the real site →</text></g></g>
+</g></g>
+<text class="small" x="320.0" y="390" text-anchor="middle" opacity="0">on-device verdict · nothing sent anywhere<animate attributeName="opacity" values="0;1;0;0" keyTimes="0.0000;0.4727;0.9273;1" calcMode="discrete" dur="11.0s" repeatCount="indefinite" /></text>
+</g>
+<rect x=".5" y=".5" width="639" height="399" rx="14" fill="none" stroke="#30363d" stroke-opacity=".35"/>
+</svg>

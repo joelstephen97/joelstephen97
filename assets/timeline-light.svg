@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="170" viewBox="0 0 1200 170" role="img" aria-labelledby="t">
+<title id="t">Career timeline 2015 to 2026: BITS Pilani Dubai, Alucor, RIOT, Otani Trading, AppliedAI</title>
+<defs><linearGradient id="accent" x1="0" x2="1"><stop offset="0" stop-color="#0969da"/><stop offset="1" stop-color="#1a7f37"/></linearGradient></defs>
+<style>.yr{font:500 11px 'Cascadia Code', 'Fira Code', Consolas, 'SF Mono', Menlo, monospace;fill:#57606a}.nm{font:700 13px 'Segoe UI', Inter, -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif;fill:#0f172a}.ds{font:400 11px 'Segoe UI', Inter, -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif;fill:#57606a}.draw{stroke-dasharray:1100;stroke-dashoffset:1100;animation:draw 2.2s ease-out forwards}@keyframes draw{to{stroke-dashoffset:0}}.fade{opacity:0;animation:fade .6s ease-out forwards}@keyframes fade{to{opacity:1}}.now{animation:now 2s ease-in-out infinite;transform-box:fill-box;transform-origin:center}@keyframes now{0%,100%{transform:scale(1);opacity:.35}50%{transform:scale(1.9);opacity:0}}@media (prefers-reduced-motion:reduce){.draw{animation:none;stroke-dashoffset:0}.fade{animation:none;opacity:1}.now{animation:none}}</style>
+<rect width="1200" height="170" fill="none"/>
+<line x1="70" y1="96" x2="1130" y2="96" stroke="#d0d7de" stroke-width="2"/>
+<line class="draw" x1="70" y1="96" x2="1130" y2="96" stroke="url(#accent)" stroke-width="2"/>
+<line x1="70.0" y1="92" x2="70.0" y2="100" stroke="#d0d7de"/>
+<text class="yr" x="70.0" y="118" text-anchor="middle">2015</text>
+<line x1="161.4" y1="92" x2="161.4" y2="100" stroke="#d0d7de"/>
+<text class="yr" x="161.4" y="118" text-anchor="middle">2016</text>
+<line x1="252.8" y1="92" x2="252.8" y2="100" stroke="#d0d7de"/>
+<text class="yr" x="252.8" y="118" text-anchor="middle">2017</text>
+<line x1="344.1" y1="92" x2="344.1" y2="100" stroke="#d0d7de"/>
+<text class="yr" x="344.1" y="118" text-anchor="middle">2018</text>
+<line x1="435.5" y1="92" x2="435.5" y2="100" stroke="#d0d7de"/>
+<text class="yr" x="435.5" y="118" text-anchor="middle">2019</text>
+<line x1="526.9" y1="92" x2="526.9" y2="100" stroke="#d0d7de"/>
+<text class="yr" x="526.9" y="118" text-anchor="middle">2020</text>
+<line x1="618.3" y1="92" x2="618.3" y2="100" stroke="#d0d7de"/>
+<text class="yr" x="618.3" y="118" text-anchor="middle">2021</text>
+<line x1="709.7" y1="92" x2="709.7" y2="100" stroke="#d0d7de"/>
+<text class="yr" x="709.7" y="118" text-anchor="middle">2022</text>
+<line x1="801.0" y1="92" x2="801.0" y2="100" stroke="#d0d7de"/>
+<text class="yr" x="801.0" y="118" text-anchor="middle">2023</text>
+<line x1="892.4" y1="92" x2="892.4" y2="100" stroke="#d0d7de"/>
+<text class="yr" x="892.4" y="118" text-anchor="middle">2024</text>
+<line x1="983.8" y1="92" x2="983.8" y2="100" stroke="#d0d7de"/>
+<text class="yr" x="983.8" y="118" text-anchor="middle">2025</text>
+<line x1="1075.2" y1="92" x2="1075.2" y2="100" stroke="#d0d7de"/>
+<text class="yr" x="1075.2" y="118" text-anchor="middle">2026</text>
+<g class="fade" style="animation-delay:0.30s">
+<rect x="124.8" y="91" width="365.5" height="10" rx="5" fill="#57606a" opacity=".28"/>
+<circle cx="124.8" cy="96" r="6" fill="#f6f8fa" stroke="#57606a" stroke-width="2.5"/>
+<line x1="124.8" y1="90" x2="124.8" y2="80.0" stroke="#57606a" stroke-opacity=".5"/>
+<text class="nm" x="120.8" y="62.0" text-anchor="start">BITS Pilani Dubai</text>
+<text class="ds" x="120.8" y="78.0" text-anchor="start">B.E. Computer Science (Hons)</text>
+</g>
+<g class="fade" style="animation-delay:0.65s">
+<rect x="435.5" y="91" width="45.7" height="10" rx="5" fill="#0969da" opacity=".28"/>
+<circle cx="435.5" cy="96" r="6" fill="#f6f8fa" stroke="#0969da" stroke-width="2.5"/>
+<line x1="435.5" y1="102" x2="435.5" y2="132.0" stroke="#0969da" stroke-opacity=".5"/>
+<text class="nm" x="431.5" y="142.0" text-anchor="start">Alucor</text>
+<text class="ds" x="431.5" y="158.0" text-anchor="start">SDE intern · Django</text>
+</g>
+<g class="fade" style="animation-delay:1.00s">
+<rect x="499.5" y="91" width="310.7" height="10" rx="5" fill="#0969da" opacity=".28"/>
+<circle cx="499.5" cy="96" r="6" fill="#f6f8fa" stroke="#0969da" stroke-width="2.5"/>
+<line x1="499.5" y1="90" x2="499.5" y2="80.0" stroke="#0969da" stroke-opacity=".5"/>
+<text class="nm" x="495.5" y="62.0" text-anchor="start">RIOT</text>
+<text class="ds" x="495.5" y="78.0" text-anchor="start">Junior SWE · payments, migrations, Python automation</text>
+</g>
+<g class="fade" style="animation-delay:1.35s">
+<rect x="865.0" y="91" width="127.9" height="10" rx="5" fill="#0969da" opacity=".28"/>
+<circle cx="865.0" cy="96" r="6" fill="#f6f8fa" stroke="#0969da" stroke-width="2.5"/>
+<line x1="865.0" y1="102" x2="865.0" y2="132.0" stroke="#0969da" stroke-opacity=".5"/>
+<text class="nm" x="861.0" y="142.0" text-anchor="start">Otani Trading</text>
+<text class="ds" x="861.0" y="158.0" text-anchor="start">SWE → Senior SWE · Vue, FastAPI, GraphQL, YOLOv5</text>
+</g>
+<g class="fade" style="animation-delay:1.70s">
+<rect x="1024.9" y="91" width="105.1" height="10" rx="5" fill="#1a7f37" opacity=".28"/>
+<circle cx="1024.9" cy="96" r="6" fill="#f6f8fa" stroke="#1a7f37" stroke-width="2.5"/>
+<line x1="1024.9" y1="90" x2="1024.9" y2="80.0" stroke="#1a7f37" stroke-opacity=".5"/>
+<text class="nm" x="1134.0" y="62.0" text-anchor="end">AppliedAI</text>
+<text class="ds" x="1134.0" y="78.0" text-anchor="end">SWE on Opus · React, Yjs, LLM pipelines</text>
+<circle class="now" cx="1130.0" cy="96" r="7" fill="#1a7f37"/>
+<circle cx="1130.0" cy="96" r="5" fill="#1a7f37"/>
+<text class="yr" x="1143.0" y="100" text-anchor="start" fill="#1a7f37">now</text>
+</g>
+</svg>

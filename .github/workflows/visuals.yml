@@ -1,0 +1,55 @@
+name: Generate profile visuals
+
+# Builds the contribution snake (Platane/snk) and the 3D contribution calendar
+# (yoshi389111/github-profile-3d-contrib) and publishes the SVGs to the
+# `output` branch, so the README never depends on a third-party image service.
+
+on:
+  schedule:
+    - cron: "17 2 * * *" # daily, 02:17 UTC
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: [".github/workflows/visuals.yml"]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-visuals
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Contribution snake
+        uses: Platane/snk@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-snake.svg
+            dist/github-snake-dark.svg?palette=github-dark
+
+      - name: 3D contribution calendar
+        uses: yoshi389111/github-profile-3d-contrib@v0.9.3
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
+
+      - name: Collect
+        run: |
+          mkdir -p dist
+          cp profile-3d-contrib/*.svg dist/
+          ls -la dist
+
+      - name: Publish to output branch
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+          commit_message: "chore: refresh profile visuals"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
