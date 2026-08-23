@@ -41,7 +41,9 @@ jobs:
 
       - name: Collect
         run: |
-          mkdir -p dist
+          # the snake action runs in Docker as root, so dist/ is root-owned
+          sudo mkdir -p dist
+          sudo chown -R "$USER" dist profile-3d-contrib
           cp profile-3d-contrib/*.svg dist/
           ls -la dist
 
