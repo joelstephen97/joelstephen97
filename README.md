@@ -175,7 +175,7 @@ On my own time I like products where the model *is* the product and privacy is t
 
 - Based in Abu Dhabi. B.E. Computer Science (Hons), BITS Pilani Dubai Campus.
 - Languages: English, Malayalam, Hindi, and a year of Mandarin underway.
-- Weekend reading is time-domain astronomy: transient alert streams and what the Rubin Observatory firehose will do to them.
+- Weekend reading is astronomy, the software side of it: how telescopes catch things that flare up or explode in the night sky, and how you sort through millions of those alerts a night.
 - Small, sharp tools over big frameworks. Most repos here started as a Friday-evening problem.
 
 <br>
